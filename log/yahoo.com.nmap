@@ -1,0 +1,49 @@
+# Nmap 7.80 scan initiated Fri Apr 03 12:15:43 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -A -oA log/yahoo.com yahoo.com
+Nmap scan report for yahoo.com (72.30.35.10)
+Host is up (0.12s latency).
+Other addresses for yahoo.com (not scanned): 2001:4998:58:1836::11 2001:4998:44:41d::4 2001:4998:c:1023::4 2001:4998:c:1023::5 2001:4998:58:1836::10 2001:4998:44:41d::3 72.30.35.9 98.138.219.231 98.137.246.7 98.137.246.8 98.138.219.232
+Not shown: 998 filtered ports
+PORT    STATE SERVICE        VERSION
+80/tcp  open  http-proxy     Apache Traffic Server
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported:CONNECTION
+|_http-server-header: ATS
+|_http-title: Did not follow redirect to https://yahoo.com/
+443/tcp open  ssl/http-proxy Apache Traffic Server
+|_http-server-header: ATS
+|_http-title: Did not follow redirect to https://www.yahoo.com/
+| ssl-cert: Subject: commonName=*.www.yahoo.com/organizationName=Oath Inc/stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:*.yahoo.com, DNS:yahoo.com, DNS:*.www.yahoo.com, DNS:*.amp.yimg.com, DNS:mbp.yimg.com, DNS:*.att.yahoo.com, DNS:add.my.yahoo.com, DNS:ca.my.yahoo.com, DNS:ca.rogers.yahoo.com, DNS:ddl.fp.yahoo.com, DNS:fr-ca.rogers.yahoo.com, DNS:hk.rd.yahoo.com, DNS:tw.rd.yahoo.com
+| Not valid before: 2020-01-20T00:00:00
+|_Not valid after:  2020-07-18T12:00:00
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|   http/1.1
+|_  http/1.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 13 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   209.00 ms 192.168.178.1
+2   28.00 ms  213.51.1.124
+3   31.00 ms  213.51.7.102
+4   21.00 ms  213.51.64.66
+5   22.00 ms  216.115.96.110
+6   33.00 ms  66.196.68.156
+7   102.00 ms 216.115.100.26
+8   106.00 ms 216.115.111.30
+9   102.00 ms 74.6.227.41
+10  102.00 ms 74.6.122.33
+11  101.00 ms 98.139.128.71
+12  108.00 ms 98.139.132.18
+13  114.00 ms 72.30.35.10
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 03 12:16:53 2020 -- 1 IP address (1 host up) scanned in 69.81 seconds

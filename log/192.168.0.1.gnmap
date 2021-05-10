@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Tue Jun 05 17:21:55 2018 as: C:\Program Files (x86)\Nmap\nmap.exe -sV -A -oA log/192.168.0.1 192.168.0.1
+Host: 192.168.0.1 ()	Status: Up
+Host: 192.168.0.1 ()	Ports: 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 1900/open/tcp//http//Cisco DPC3828S WiFi cable modem/, 8082/open/tcp//http//Mongoose httpd/	Ignored State: filtered (996)	OS: Motorola SURFboard 5101 cable modem	Seq Index: 255	IP ID Seq: Incremental
+# Nmap done at Tue Jun 05 17:22:17 2018 -- 1 IP address (1 host up) scanned in 22.80 seconds

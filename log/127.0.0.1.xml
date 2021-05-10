@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon Apr 06 09:37:46 2020 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -sV -A -oX log/127.0.0.1.xml 127.0.0.1 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -sV -A -oX log/127.0.0.1.xml 127.0.0.1" start="1586158666" startstr="Mon Apr 06 09:37:46 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1586158669" endtime="1586158880"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="localhost" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="994">
+<extrareasons reason="resets" count="994"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="https" servicefp="SF-Port443-TCP:V=7.80%T=SSL%I=7%D=4/6%Time=5E8ADC59%P=i686-pc-windows-windows%r(GetRequest,139,&quot;HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Mon,\x206\x20Apr\x202020\x2007:38:01\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n&quot;)%r(HTTPOptions,13F,&quot;HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Mon,\x206\x20Apr\x202020\x2007:38:01\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n&quot;)%r(FourOhFourRequest,139,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x206\x20Apr\x202020\x2007:38:01\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n&quot;)%r(RTSPRequest,B2,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Mon,\x206\x20Apr\x202020\x2007:38:11\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400\x20Bad\x20Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;&quot;)%r(SIPOptions,B2,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Mon,\x206\x20Apr\x202020\x2007:39:19\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400\x20Bad\x20Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;&quot;);" tunnel="ssl" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.1 404 Not Found&#xa;    Date: Mon, 6 Apr 2020 07:38:01 GMT&#xa;    Connection: close&#xa;    Content-Security-Policy: block-all-mixed-content&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Strict-Transport-Security: max-age=31536000&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1&#xa;    Content-Length: 0&#xa;  GetRequest: &#xa;    HTTP/1.1 403 Forbidden&#xa;    Date: Mon, 6 Apr 2020 07:38:01 GMT&#xa;    Connection: close&#xa;    Content-Security-Policy: block-all-mixed-content&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Strict-Transport-Security: max-age=31536000&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1&#xa;    Content-Length: 0&#xa;  HTTPOptions: &#xa;    HTTP/1.1 501 Not Implemented&#xa;    Date: Mon, 6 Apr 2020 07:38:01 GMT&#xa;    Connection: close&#xa;    Content-Security-Policy: block-all-mixed-content&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Strict-Transport-Security: max-age=31536000&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1&#xa;    Content-Length: 0&#xa;  RTSPRequest: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Mon, 6 Apr 2020 07:38:11 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;&#xa;  SIPOptions: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Mon, 6 Apr 2020 07:39:19 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;"><elem key="FourOhFourRequest">&#xa;    HTTP/1.1 404 Not Found&#xa;    Date: Mon, 6 Apr 2020 07:38:01 GMT&#xa;    Connection: close&#xa;    Content-Security-Policy: block-all-mixed-content&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Strict-Transport-Security: max-age=31536000&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1&#xa;    Content-Length: 0</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.1 403 Forbidden&#xa;    Date: Mon, 6 Apr 2020 07:38:01 GMT&#xa;    Connection: close&#xa;    Content-Security-Policy: block-all-mixed-content&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Strict-Transport-Security: max-age=31536000&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1&#xa;    Content-Length: 0</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 501 Not Implemented&#xa;    Date: Mon, 6 Apr 2020 07:38:01 GMT&#xa;    Connection: close&#xa;    Content-Security-Policy: block-all-mixed-content&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Strict-Transport-Security: max-age=31536000&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1&#xa;    Content-Length: 0</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Mon, 6 Apr 2020 07:38:11 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;</elem>
+<elem key="SIPOptions">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Mon, 6 Apr 2020 07:39:19 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script><script id="ssl-cert" output="Subject: commonName=VMware/countryName=US&#xa;Not valid before: 2019-12-21T00:35:11&#xa;Not valid after:  2020-12-20T00:35:11"><table key="subject">
+<elem key="commonName">VMware</elem>
+<elem key="emailAddress">none@vmware.com</elem>
+<elem key="countryName">US</elem>
+<elem key="localityName">Palo Alto</elem>
+<elem key="organizationalUnitName">VMware</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">VMware</elem>
+<elem key="emailAddress">none@vmware.com</elem>
+<elem key="countryName">US</elem>
+<elem key="localityName">Palo Alto</elem>
+<elem key="organizationalUnitName">VMware</elem>
+</table>
+<table key="pubkey">
+<elem key="modulus">BIGNUM: 04EC4E50</elem>
+<elem key="exponent">BIGNUM: 04EC49A0</elem>
+<elem key="bits">2048</elem>
+<elem key="type">rsa</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">03:B2:1C:0B:60:EB:5C:25:87:A9:38:CE:53:19:D6:0D:76:F6:9F:2A</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:03:B2:1C:0B:60:EB:5C:25:87:A9:38:CE:53:19:D6:0D:76:F6:9F:2A&#xa;DirName:/C=US/L=Palo Alto/OU=VMware/CN=VMware/emailAddress=none@vmware.com&#xa;serial:A6:08:11:1E:4F:EE:B4:41&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:TRUE</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2019-12-21T00:35:11</elem>
+<elem key="notAfter">2020-12-20T00:35:11</elem>
+</table>
+<elem key="md5">ab2354ce129542e718f76da47e5460ae</elem>
+<elem key="sha1">be27106de904a11c893bc6f34cd2acb54dd2808f</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEEjCCAvqgAwIBAgIJAKYIER5P7rRBMA0GCSqGSIb3DQEBCwUAMGMxCzAJBgNV&#xa;BAYTAlVTMRIwEAYDVQQHDAlQYWxvIEFsdG8xDzANBgNVBAsMBlZNd2FyZTEPMA0G&#xa;A1UEAwwGVk13YXJlMR4wHAYJKoZIhvcNAQkBFg9ub25lQHZtd2FyZS5jb20wHhcN&#xa;MTkxMjIxMDAzNTExWhcNMjAxMjIwMDAzNTExWjBjMQswCQYDVQQGEwJVUzESMBAG&#xa;A1UEBwwJUGFsbyBBbHRvMQ8wDQYDVQQLDAZWTXdhcmUxDzANBgNVBAMMBlZNd2Fy&#xa;ZTEeMBwGCSqGSIb3DQEJARYPbm9uZUB2bXdhcmUuY29tMIIBIjANBgkqhkiG9w0B&#xa;AQEFAAOCAQ8AMIIBCgKCAQEA3AQ6ndZjAL5iJhO0MxdnV1hzqc1vKi7GF4b/4eAX&#xa;QGssGWXXvm2Kp0qW7LYFMtYsi6H8/eIEn0WNxTqiRSWZZYZoLTNeZYiXdtxJol5K&#xa;AWBCVE8kM33qA6jH4yjUbcsVecF4YbDNO9eSMNQt5QBkMUm5UUQxZh1NEc6v9tmf&#xa;zQxr1X8xVJuU5BeGNYrvT4PZiZQOCF2KNf+dm88xpKJgprx008Cx1uhn3fPvjhVg&#xa;dPviKehUFh5duFk2IBhJ6Sf5+jNNcW7m9cVpoSaIDzPHIovS9Vs8nbuyASq9nO6k&#xa;Es9GTB2xtXysGkZlRjeCr2kooIqHx0G2wWt2CigGfjt07wIDAQABo4HIMIHFMB0G&#xa;A1UdDgQWBBQDshwLYOtcJYepOM5TGdYNdvafKjCBlQYDVR0jBIGNMIGKgBQDshwL&#xa;YOtcJYepOM5TGdYNdvafKqFnpGUwYzELMAkGA1UEBhMCVVMxEjAQBgNVBAcMCVBh&#xa;bG8gQWx0bzEPMA0GA1UECwwGVk13YXJlMQ8wDQYDVQQDDAZWTXdhcmUxHjAcBgkq&#xa;hkiG9w0BCQEWD25vbmVAdm13YXJlLmNvbYIJAKYIER5P7rRBMAwGA1UdEwQFMAMB&#xa;Af8wDQYJKoZIhvcNAQELBQADggEBAH/ykd3E3he62uZNvXRQTTmZlPoKs7A2juM7&#xa;/dv5thEb1u6dbRXLu2PrauhDzpzyi9j5KQsBE8QAeIWwFch1Nl0OVjLOwlev0wm9&#xa;gaw7c94KpV5EwTW0BueL1ymo4X/UH5ZRBtj9JJR4IJyV0yqDOS4lEUvH2ZaiFRfe&#xa;oEEX37h2hKMGdpqrFOmxDVNUy9nsfa3YNhNX+cnbIv4EynmtBNe/KOltR1u7sCn+&#xa;Ie+9V6s1CqYPkKoSgWojZiqsw5zmtCeWPPTcVVkV7a/lDjZDbUN5sq+7RnjOkF6c&#xa;nNIidAA5DrobjJfdvZTjORpixFKkKSqSfW/d8ywBqSjT+XlAiLU=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="903"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vmware-auth" product="VMware Authentication Daemon" version="1.10" extrainfo="Uses VNC, SOAP" tunnel="ssl" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="1234"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="hotline" servicefp="SF-Port1234-TCP:V=7.80%I=7%D=4/6%Time=5E8ADC53%P=i686-pc-windows-windows%r(NULL,B,&quot;127\.0\.0\.1\r\n&quot;)%r(GetRequest,B,&quot;127\.0\.0\.1\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  GetRequest, NULL: &#xa;    127.0.0.1"><elem key="GetRequest, NULL">&#xa;    127.0.0.1</elem>
+</script></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="JBoss Enterprise Application Platform" method="probed" conf="10"><cpe>cpe:/a:redhat:jboss_enterprise_application_platform</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="135"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="44062"/>
+<osmatch name="Microsoft Windows 10 1607" accuracy="93" line="69340">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="93"><cpe>cpe:/o:microsoft:windows_10:1607</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 1703" accuracy="93" line="69394">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="93"><cpe>cpe:/o:microsoft:windows_10:1703</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="92" line="77170">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="92"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Longhorn" accuracy="92" line="78352">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Longhorn" accuracy="92"><cpe>cpe:/o:microsoft:windows</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 1511" accuracy="91" line="69105">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="91"><cpe>cpe:/o:microsoft:windows_10:1511</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 or 8.1 R1" accuracy="91" line="76444">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="91"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="91"><cpe>cpe:/o:microsoft:windows_8.1:r1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10" accuracy="90" line="68914">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="90"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 10586 - 14393" accuracy="90" line="69008">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="90"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 or 8.1 R1 or Server 2008 R2 SP1" accuracy="90" line="77602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="90"><cpe>cpe:/o:microsoft:windows_8.1:r1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="90"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="90" line="74406">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.80%E=4%D=4/6%OT=135%CT=1%CU=44062%PV=N%DS=0%DC=L%G=Y%TM=5E8ADD7&#xa;OS:9%P=i686-pc-windows-windows)SEQ(SP=FF%GCD=1%ISR=10B%TI=I%CI=I%II=I%TS=U)&#xa;OS:OPS(O1=MFFD7NW8NNS%O2=MFFD7NW8NNS%O3=MFFD7NW8%O4=MFFD7NW8NNS%O5=MFFD7NW8&#xa;OS:NNS%O6=MFFD7NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF32)ECN(&#xa;OS:R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=A&#xa;OS:S%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%&#xa;OS:W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)&#xa;OS:T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A&#xa;OS:=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%D&#xa;OS:F=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=8&#xa;OS:0%CD=Z)&#xa;"/>
+</os>
+<distance value="0"/>
+<tcpsequence index="255" difficulty="Good luck!" values="9F0DD368,D0A04CC7,A7F18800,4EB8B0B9,9D29C60B,F7106E4F"/>
+<ipidsequence class="Incrementing by 2" values="48D0,48D3,48D6,48D9,48DC,48DF"/>
+<tcptssequence class="none returned (unsupported)"/>
+<hostscript><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2020-04-06T07:40:40&#xa;  start_date: N/A"><elem key="date">2020-04-06T07:40:40</elem>
+<elem key="start_date">N/A</elem>
+</script></hostscript><times srtt="42" rttvar="84" to="100000"/>
+</host>
+<runstats><finished time="1586158969" timestr="Mon Apr 06 09:42:49 2020" elapsed="303.98" summary="Nmap done at Mon Apr 06 09:42:49 2020; 1 IP address (1 host up) scanned in 303.98 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

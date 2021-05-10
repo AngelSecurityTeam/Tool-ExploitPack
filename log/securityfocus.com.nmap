@@ -1,0 +1,50 @@
+# Nmap 7.70 scan initiated Tue Jun 05 18:36:33 2018 as: C:\Program Files (x86)\Nmap\nmap.exe -sV -A -oA log/securityfocus.com securityfocus.com
+Nmap scan report for securityfocus.com (54.165.78.90)
+Host is up (0.18s latency).
+Other addresses for securityfocus.com (not scanned): 52.3.50.48
+rDNS record for 54.165.78.90: ec2-54-165-78-90.compute-1.amazonaws.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd 2.2.3
+|_http-server-header: Apache/2.2.3 (CentOS)
+|_http-title: Did not follow redirect to https://www.securityfocus.com/
+443/tcp open  ssl/http Apache httpd 2.2.3
+|_http-server-header: Apache/2.2.3 (CentOS)
+|_http-title: Did not follow redirect to https://www.securityfocus.com/
+| ssl-cert: Subject: commonName=www.securityfocus.com/organizationName=Symantec Corporation/stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:www.securityfocus.com
+| Not valid before: 2018-01-30T00:00:00
+|_Not valid after:  2019-01-31T12:00:00
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:3.2.0
+Aggressive OS guesses: Linux 3.2.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 23 hops
+Service Info: Host: www.securityfocus.com
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   2.00 ms   192.168.0.1
+2   ... 4
+5   20.00 ms  86-165-89-200.fibertel.com.ar (200.89.165.86)
+6   23.00 ms  238-163-89-200.fibertel.com.ar (200.89.163.238)
+7   142.00 ms 206.41.108.74
+8   23.00 ms  190.94.176.113
+9   147.00 ms 206.41.108.74
+10  ... 15
+16  177.00 ms 54.239.110.162
+17  176.00 ms 205.251.245.191
+18  ... 22
+23  177.00 ms ec2-54-165-78-90.compute-1.amazonaws.com (54.165.78.90)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 05 18:37:23 2018 -- 1 IP address (1 host up) scanned in 50.53 seconds

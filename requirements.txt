@@ -1,0 +1,10 @@
+# Install the following requirements:
+# Windows/Linux/OSx
+- Java JDK/JRE
+- Python 2.7
+- Scapy
+- Ropper
+- Nmap
+
+# Quick install for Linux .deb based
+sudo apt-get install nmap default-jdk python2 python2.7 python-pip;pip install scapy ropper

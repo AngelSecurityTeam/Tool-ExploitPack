@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Tue Jun 05 18:36:33 2018 as: C:\Program Files (x86)\Nmap\nmap.exe -sV -A -oA log/securityfocus.com securityfocus.com
+Host: 54.165.78.90 (ec2-54-165-78-90.compute-1.amazonaws.com)	Status: Up
+Host: 54.165.78.90 (ec2-54-165-78-90.compute-1.amazonaws.com)	Ports: 80/open/tcp//http//Apache httpd 2.2.3/, 443/open/tcp//ssl|http//Apache httpd 2.2.3/	Ignored State: filtered (998)	Seq Index: 258	IP ID Seq: All zeros
+# Nmap done at Tue Jun 05 18:37:23 2018 -- 1 IP address (1 host up) scanned in 50.53 seconds

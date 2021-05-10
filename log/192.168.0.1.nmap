@@ -1,0 +1,23 @@
+# Nmap 7.70 scan initiated Tue Jun 05 17:21:55 2018 as: C:\Program Files (x86)\Nmap\nmap.exe -sV -A -oA log/192.168.0.1 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0082s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE VERSION
+22/tcp   closed ssh
+23/tcp   closed telnet
+1900/tcp open   http    Cisco DPC3828S WiFi cable modem
+8082/tcp open   http    Mongoose httpd
+MAC Address: D8:D7:75:E4:FA:6C (Unknown)
+Device type: broadband router
+Running: Motorola embedded
+OS CPE: cpe:/h:motorola:surfboard_5101
+OS details: Motorola SURFboard 5101 cable modem
+Network Distance: 1 hop
+Service Info: Device: WAP; CPE: cpe:/h:cisco:dpc3828s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   8.21 ms 192.168.0.1
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 05 17:22:17 2018 -- 1 IP address (1 host up) scanned in 22.80 seconds

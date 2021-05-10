@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Dec  3 09:55:41 2019 as: /usr/bin/nmap -sV -A -oA log/packetstormsecurity.com packetstormsecurity.com
+Host: 198.84.60.198 (198-84-60-198.ash01.rokabear.com)	Status: Up
+Host: 198.84.60.198 (198-84-60-198.ash01.rokabear.com)	Ports: 80/open/tcp//http//EMX  /, 443/open/tcp//ssl|https//EMX  /	Ignored State: filtered (998)
+# Nmap done at Tue Dec  3 09:56:51 2019 -- 1 IP address (1 host up) scanned in 70.54 seconds

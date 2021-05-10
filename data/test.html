@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<br><br><br><center><h1>Browser Agent Page - XSS Tunnel</h1>
+<p>This page already contains Exploit Pack's agent running</p></center>
+<center><img src="bug.png"></center>
+<center><p>Copy and paste the following code in the website you want to control remotely:</p>
+
+<button onclick="copy()">Copy to clipboard</button>
+<script>
+function copy() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("Copy");
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+<center><p>Click here to check the full code from a web browser: <a href="../exploits/code/Agent.js">Open agent code</a></p></center>
+<script src="../exploits/code/Agent.js"></script>
+<p><i>Do you still have questions? support [at] exploitpack.com</i> </p>
+</html>

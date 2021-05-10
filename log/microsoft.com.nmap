@@ -1,0 +1,181 @@
+# Nmap 7.80 scan initiated Tue Dec  3 09:54:17 2019 as: /usr/bin/nmap -sV -A -oA log/microsoft.com microsoft.com
+Nmap scan report for microsoft.com (40.112.72.205)
+Host is up (0.045s latency).
+Other addresses for microsoft.com (not scanned): 13.77.161.179 104.215.148.63 40.113.200.201 40.76.4.15
+Not shown: 998 filtered ports
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      Kestrel
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:34 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:34 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:29 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   Help: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:49 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   Kerberos, SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:50 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   LPDString: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:55 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 505 HTTP Version Not Supported
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:29 GMT
+|     Server: Kestrel
+|_    Content-Length: 0
+|_http-server-header: Kestrel
+|_http-title: Did not follow redirect to https://www.microsoft.com/
+443/tcp open  ssl/https Kestrel
+| fingerprint-strings: 
+|   FourOhFourRequest, HTTPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:36 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:42 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:35 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   Help, SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:58 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   Kerberos, TLSSessionReq, TerminalServerCookie: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:59 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   LPDString: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:55:10 GMT
+|     Server: Kestrel
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 505 HTTP Version Not Supported
+|     Connection: close
+|     Date: Tue, 03 Dec 2019 08:54:42 GMT
+|     Server: Kestrel
+|_    Content-Length: 0
+|_http-server-header: Kestrel
+|_http-title: Did not follow redirect to https://www.microsoft.com/
+| ssl-cert: Subject: commonName=microsoft.com
+| Subject Alternative Name: DNS:microsoft.com, DNS:s.microsoft.com, DNS:cd.microsoft.com, DNS:ga.microsoft.com, DNS:cps.microsoft.com, DNS:grv.microsoft.com, DNS:hup.microsoft.com, DNS:mac.microsoft.com, DNS:mkb.microsoft.com, DNS:pme.microsoft.com, DNS:pmi.microsoft.com, DNS:rss.microsoft.com, DNS:sar.microsoft.com, DNS:tco.microsoft.com, DNS:ieak.microsoft.com, DNS:info.microsoft.com, DNS:mac2.microsoft.com, DNS:mcsp.microsoft.com, DNS:shop.microsoft.com, DNS:spur.microsoft.com, DNS:build.microsoft.com, DNS:forms.microsoft.com, DNS:itpro.microsoft.com, DNS:mango.microsoft.com, DNS:music.microsoft.com, DNS:pymes.microsoft.com, DNS:store.microsoft.com, DNS:afflnk.microsoft.com, DNS:alerts.microsoft.com, DNS:design.microsoft.com, DNS:garage.microsoft.com, DNS:gigjam.microsoft.com, DNS:ignite.microsoft.com, DNS:msctec.microsoft.com, DNS:online.microsoft.com, DNS:stream.microsoft.com, DNS:tpmsec.microsoft.com, DNS:afflink.microsoft.com, DNS:connect.microsoft.com, DNS:develop.microsoft.com, DNS:domains.microsoft.com, DNS:example.microsoft.com, DNS:imagine.microsoft.com, DNS:madeira.microsoft.com, DNS:msdnisv.microsoft.com, DNS:mspress.microsoft.com, DNS:privacy.microsoft.com, DNS:quantum.microsoft.com, DNS:sponsor.microsoft.com, DNS:wwwbeta.microsoft.com, DNS:empresas.microsoft.com, DNS:formspro.microsoft.com, DNS:learning.microsoft.com, DNS:msdnwiki.microsoft.com, DNS:snackbox.microsoft.com, DNS:sponsors.microsoft.com, DNS:stationq.microsoft.com, DNS:training.microsoft.com, DNS:aistories.microsoft.com, DNS:community.microsoft.com, DNS:crawlmsdn.microsoft.com, DNS:messenger.microsoft.com, DNS:minecraft.microsoft.com, DNS:resources.microsoft.com, DNS:backoffice.microsoft.com, DNS:developers.microsoft.com, DNS:enterprise.microsoft.com, DNS:iotcentral.microsoft.com, DNS:pinunblock.microsoft.com, DNS:reroute443.microsoft.com, DNS:communities.microsoft.com, DNS:expressions.microsoft.com, DNS:ondernemers.microsoft.com, DNS:techacademy.microsoft.com, DNS:terraserver.microsoft.com, DNS:communities2.microsoft.com, DNS:connectevent.microsoft.com, DNS:dataplatform.microsoft.com, DNS:entrepreneur.microsoft.com, DNS:mspartnerira.microsoft.com, DNS:oemcommunity.microsoft.com, DNS:futuredecoded.microsoft.com, DNS:mediaredirect.microsoft.com, DNS:powerplatform.microsoft.com, DNS:smallbusiness.microsoft.com, DNS:upgradecenter.microsoft.com, DNS:onlinelearning.microsoft.com, DNS:onlinetraining.microsoft.com, DNS:businesscentral.microsoft.com, DNS:analyticspartner.microsoft.com, DNS:businessplatform.microsoft.com, DNS:kleinunternehmen.microsoft.com, DNS:partnercommunity.microsoft.com, DNS:innovationcontest.microsoft.com, DNS:szkolyprzyszlosci.microsoft.com, DNS:successionplanning.microsoft.com, DNS:lumiaconversationsuk.microsoft.com, DNS:successionplanninguat.microsoft.com, DNS:businessmobilitycenter.microsoft.com
+| Not valid before: 2019-06-05T20:48:18
+|_Not valid after:  2021-06-05T20:48:18
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=12/3%Time=5DE622C5%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,82,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nConnectio
+SF:n:\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:29\x20GMT\r\
+SF:nServer:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,82,
+SF:"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nConnection:\x20clos
+SF:e\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:29\x20GMT\r\nServer:\x
+SF:20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,87,"HTTP/1\.1
+SF:\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nConnection:\x20close\
+SF:r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:29\x20GMT\r\nServer:\x20
+SF:Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,82,"HTTP/
+SF:1\.1\x20500\x20Internal\x20Server\x20Error\r\nConnection:\x20close\r\nD
+SF:ate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:34\x20GMT\r\nServer:\x20Kest
+SF:rel\r\nContent-Length:\x200\r\n\r\n")%r(GenericLines,78,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nConnection:\x20close\r\nDate:\x20Tue,\x2003\x20
+SF:Dec\x202019\x2008:54:34\x20GMT\r\nServer:\x20Kestrel\r\nContent-Length:
+SF:\x200\r\n\r\n")%r(Help,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnec
+SF:tion:\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:49\x20GMT
+SF:\r\nServer:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(SSLSessionRe
+SF:q,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nDat
+SF:e:\x20Tue,\x2003\x20Dec\x202019\x2008:54:50\x20GMT\r\nServer:\x20Kestre
+SF:l\r\nContent-Length:\x200\r\n\r\n")%r(TerminalServerCookie,78,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nDate:\x20Tue,\x20
+SF:03\x20Dec\x202019\x2008:54:50\x20GMT\r\nServer:\x20Kestrel\r\nContent-L
+SF:ength:\x200\r\n\r\n")%r(TLSSessionReq,78,"HTTP/1\.1\x20400\x20Bad\x20Re
+SF:quest\r\nConnection:\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x20
+SF:08:54:50\x20GMT\r\nServer:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")
+SF:%r(Kerberos,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20cl
+SF:ose\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:50\x20GMT\r\nServer:
+SF:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(LPDString,78,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nDate:\x20Tue,\x200
+SF:3\x20Dec\x202019\x2008:54:55\x20GMT\r\nServer:\x20Kestrel\r\nContent-Le
+SF:ngth:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=12/3%Time=5DE622CC%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,82,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nCo
+SF:nnection:\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:35\x2
+SF:0GMT\r\nServer:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOpti
+SF:ons,82,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nConnection:\
+SF:x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:36\x20GMT\r\nSe
+SF:rver:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,
+SF:82,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nConnection:\x20c
+SF:lose\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:36\x20GMT\r\nServer
+SF::\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(GenericLines,78,"HTTP/
+SF:1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nDate:\x20Tue,\
+SF:x2003\x20Dec\x202019\x2008:54:42\x20GMT\r\nServer:\x20Kestrel\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(RTSPRequest,87,"HTTP/1\.1\x20505\x20HTTP\x20
+SF:Version\x20Not\x20Supported\r\nConnection:\x20close\r\nDate:\x20Tue,\x2
+SF:003\x20Dec\x202019\x2008:54:42\x20GMT\r\nServer:\x20Kestrel\r\nContent-
+SF:Length:\x200\r\n\r\n")%r(Help,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nConnection:\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:58
+SF:\x20GMT\r\nServer:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(SSLSe
+SF:ssionReq,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close
+SF:\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:58\x20GMT\r\nServer:\x2
+SF:0Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(TerminalServerCookie,78,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nDate:\x20T
+SF:ue,\x2003\x20Dec\x202019\x2008:54:59\x20GMT\r\nServer:\x20Kestrel\r\nCo
+SF:ntent-Length:\x200\r\n\r\n")%r(TLSSessionReq,78,"HTTP/1\.1\x20400\x20Ba
+SF:d\x20Request\r\nConnection:\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202
+SF:019\x2008:54:59\x20GMT\r\nServer:\x20Kestrel\r\nContent-Length:\x200\r\
+SF:n\r\n")%r(Kerberos,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection
+SF::\x20close\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:54:59\x20GMT\r\n
+SF:Server:\x20Kestrel\r\nContent-Length:\x200\r\n\r\n")%r(LPDString,78,"HT
+SF:TP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nDate:\x20Tu
+SF:e,\x2003\x20Dec\x202019\x2008:55:10\x20GMT\r\nServer:\x20Kestrel\r\nCon
+SF:tent-Length:\x200\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  3 09:56:14 2019 -- 1 IP address (1 host up) scanned in 116.56 seconds
+:e,\x2003\x20Dec\x202019\x2008:54:07\x20GMT\r\nServer:\x20Kestrel\r\nCon
+SF:tent-Length:\x200\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  3 09:55:14 2019 -- 1 IP address (1 host up) scanned in 129.35 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Dec  3 09:54:17 2019 as: /usr/bin/nmap -sV -A -oA log/microsoft.com microsoft.com
+Host: 40.112.72.205 ()	Status: Up
+Host: 40.112.72.205 ()	Ports: 80/open/tcp//http//Kestrel/, 443/open/tcp//ssl|https//Kestrel/	Ignored State: filtered (998)
+# Nmap done at Tue Dec  3 09:56:14 2019 -- 1 IP address (1 host up) scanned in 116.56 seconds

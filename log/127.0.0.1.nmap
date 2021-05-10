@@ -1,0 +1,126 @@
+# Nmap 7.80 scan initiated Sat Apr 04 23:12:05 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -A -oA log/127.0.0.1 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+443/tcp  open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Sat, 4 Apr 2020 21:12:20 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Sat, 4 Apr 2020 21:12:20 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Sat, 4 Apr 2020 21:12:20 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Sat, 4 Apr 2020 21:12:30 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|     <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Sat, 4 Apr 2020 21:13:38 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|_    <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2019-12-21T00:35:11
+|_Not valid after:  2020-12-20T00:35:11
+|_ssl-date: TLS randomness does not represent time
+445/tcp  open  microsoft-ds?
+903/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+1234/tcp open  hotline?
+| fingerprint-strings: 
+|   GetRequest, NULL: 
+|_    127.0.0.1
+8000/tcp open  http            JBoss Enterprise Application Platform
+|_http-title: Site doesn't have a title (text/html).
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=4/4%Time=5E88F834%P=i686-pc-windows-wind
+SF:ows%r(GetRequest,139,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Sat,\x2
+SF:04\x20Apr\x202020\x2021:12:20\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Security-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/p
+SF:lain;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=3153600
+SF:0\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\n
+SF:X-XSS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,
+SF:13F,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Sat,\x204\x20Ap
+SF:r\x202020\x2021:12:20\x20GMT\r\nConnection:\x20close\r\nContent-Securit
+SF:y-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x2
+SF:0charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-C
+SF:ontent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Pr
+SF:otection:\x201\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,13
+SF:9,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sat,\x204\x20Apr\x20202
+SF:0\x2021:12:20\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy
+SF::\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset
+SF:=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-T
+SF:ype-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection
+SF::\x201\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,B2,"HTTP/1\.1\x2
+SF:0400\x20Bad\x20Request\r\nDate:\x20Sat,\x204\x20Apr\x202020\x2021:12:30
+SF:\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nConten
+SF:t-Length:\x2050\r\n\r\n<HTML><BODY><H1>400\x20Bad\x20Request</H1></BODY
+SF:></HTML>")%r(SIPOptions,B2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:
+SF:\x20Sat,\x204\x20Apr\x202020\x2021:13:38\x20GMT\r\nConnection:\x20close
+SF:\r\nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n<HTML><B
+SF:ODY><H1>400\x20Bad\x20Request</H1></BODY></HTML>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1234-TCP:V=7.80%I=7%D=4/4%Time=5E88F82E%P=i686-pc-windows-windows%r
+SF:(NULL,B,"127\.0\.0\.1\r\n")%r(GetRequest,B,"127\.0\.0\.1\r\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/4%OT=135%CT=1%CU=37133%PV=N%DS=0%DC=L%G=Y%TM=5E88F8F
+OS:2%P=i686-pc-windows-windows)SEQ(SP=101%GCD=1%ISR=10B%CI=I%II=I%TS=U)SEQ(
+OS:SP=101%GCD=1%ISR=10B%TI=I%CI=I%II=I%TS=U)OPS(O1=MFFD7NW8NNS%O2=MFFD7NW8N
+OS:NS%O3=MFFD7NW8%O4=MFFD7NW8NNS%O5=MFFD7NW8NNS%O6=MFFD7NNS)WIN(W1=FFFF%W2=
+OS:FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF32)ECN(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8
+OS:NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(
+OS:R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F
+OS:=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T
+OS:=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RI
+OS:D=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 0 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-04-04T21:14:55
+|_  start_date: N/A
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr 04 23:15:30 2020 -- 1 IP address (1 host up) scanned in 205.48 seconds

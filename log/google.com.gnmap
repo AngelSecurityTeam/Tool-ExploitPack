@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Tue Dec  3 09:52:35 2019 as: /usr/bin/nmap -sV -A -oA log/google.com google.com
+Host: 172.217.17.110 (ams15s29-in-f14.1e100.net)	Status: Up
+Host: 172.217.17.110 (ams15s29-in-f14.1e100.net)	Ports: 80/open/tcp//http//gws/, 443/open/tcp//ssl|https//gws/	Ignored State: filtered (998)
+# Nmap done at Tue Dec  3 09:53:55 2019 -- 1 IP address (1 host up) scanned in 80.26 seconds
+s

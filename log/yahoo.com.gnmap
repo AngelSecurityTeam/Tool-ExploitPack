@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Apr 03 12:15:43 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -A -oA log/yahoo.com yahoo.com
+Host: 72.30.35.10 ()	Status: Up
+Host: 72.30.35.10 ()	Ports: 80/open/tcp//http-proxy//Apache Traffic Server/, 443/open/tcp//ssl|http-proxy//Apache Traffic Server/	Ignored State: filtered (998)	Seq Index: 263	IP ID Seq: All zeros
+# Nmap done at Fri Apr 03 12:16:53 2020 -- 1 IP address (1 host up) scanned in 69.81 seconds

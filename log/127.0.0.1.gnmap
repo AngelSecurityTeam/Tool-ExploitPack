@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sat Apr 04 23:12:05 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -A -oA log/127.0.0.1 127.0.0.1
+Host: 127.0.0.1 (localhost)	Status: Up
+Host: 127.0.0.1 (localhost)	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 443/open/tcp//ssl|https///, 445/open/tcp//microsoft-ds?///, 903/open/tcp//ssl|vmware-auth//VMware Authentication Daemon 1.10 (Uses VNC, SOAP)/, 1234/open/tcp//hotline?///, 8000/open/tcp//http//JBoss Enterprise Application Platform/	Ignored State: closed (994)	Seq Index: 257	IP ID Seq: Busy server or unknown class
+# Nmap done at Sat Apr 04 23:15:30 2020 -- 1 IP address (1 host up) scanned in 205.48 seconds

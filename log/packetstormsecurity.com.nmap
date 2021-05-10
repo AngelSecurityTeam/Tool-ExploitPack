@@ -1,0 +1,242 @@
+# Nmap 7.80 scan initiated Tue Dec  3 09:55:41 2019 as: /usr/bin/nmap -sV -A -oA log/packetstormsecurity.com packetstormsecurity.com
+Nmap scan report for packetstormsecurity.com (198.84.60.198)
+Host is up (0.14s latency).
+rDNS record for 198.84.60.198: 198-84-60-198.ash01.rokabear.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      EMX  
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:47 GMT
+|     Content-Type: text/html
+|     Content-Length: 162
+|     Connection: close
+|     Location: https://packetstormsecurity.com/nice%20ports%2C/Tri%6Eity.txt%2ebak
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:45 GMT
+|     Content-Type: text/html
+|     Content-Length: 162
+|     Connection: close
+|     Location: https://packetstormsecurity.com/
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 301 Moved Permanently
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:46 GMT
+|     Content-Type: text/html
+|     Content-Length: 162
+|     Connection: close
+|     Location: https://packetstormsecurity.com/
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   X11Probe: 
+|     HTTP/1.1 301 Moved Permanently
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:46 GMT
+|     Content-Type: text/html
+|     Content-Length: 162
+|     Connection: close
+|     Location: https://packetstormsecurity.com
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|_    </html>
+|_http-server-header: EMX  
+443/tcp open  ssl/https EMX  
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:54 GMT
+|     Content-Type: text/html; charset=iso-8859-1
+|     Content-Length: 269
+|     Connection: close
+|     Location: https://packetstormsecurity.com/nice%20ports,/Trinity.txt.bak
+|     Vary: Accept-Encoding
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Strict-Transport-Security: max-age=3600
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>301 Moved Permanently</title>
+|     </head><body>
+|     <h1>Moved Permanently</h1>
+|     <p>The document has moved <a href="https://packetstormsecurity.com/nice%20ports,/Trinity.txt.bak">here</a>.</p>
+|     </body></html>
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:52 GMT
+|     Content-Type: text/html; charset=iso-8859-1
+|     Content-Length: 240
+|     Connection: close
+|     Location: https://packetstormsecurity.com/
+|     Vary: Accept-Encoding
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Strict-Transport-Security: max-age=3600
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>301 Moved Permanently</title>
+|     </head><body>
+|     <h1>Moved Permanently</h1>
+|     <p>The document has moved <a href="https://packetstormsecurity.com/">here</a>.</p>
+|     </body></html>
+|   HTTPOptions: 
+|     HTTP/1.1 501 Method Not Implemented
+|     Server: EMX 
+|     Date: Tue, 03 Dec 2019 08:59:53 GMT
+|     Content-Type: text/html; charset=iso-8859-1
+|     Content-Length: 209
+|     Connection: close
+|     Allow: 
+|     Vary: Accept-Encoding
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>501 Method Not Implemented</title>
+|     </head><body>
+|     <h1>Method Not Implemented</h1>
+|     <p>OPTIONS to / not supported.<br />
+|     </p>
+|_    </body></html>
+| http-methods: 
+|_  Potentially risky methods: 
+| http-robots.txt: 11 disallowed entries 
+| /account/ /error/ /img/ /js/ /css/ /mirrors/ /search/ 
+|_/news/favorite/ /files/favorite/ /videos/favorite/ /*?*
+|_http-server-header: EMX  
+|_http-title: Packet Storm
+| ssl-cert: Subject: commonName=packetstormsecurity.com
+| Subject Alternative Name: DNS:packetstormsecurity.com, DNS:www.packetstormsecurity.com, DNS:packetstatic.com, DNS:dl.packetstormsecurity.net, DNS:rss.packetstormsecurity.com
+| Not valid before: 2019-04-02T15:14:27
+|_Not valid after:  2020-05-31T18:04:40
+|_ssl-date: 2019-12-03T09:00:37+00:00; +3m48s from scanner time.
+| tls-nextprotoneg: 
+|_  http/1.1
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=12/3%Time=5DE6231E%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1C4,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nServer:\x20EMX\
+SF:x20\x20\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:59:45\x20GMT\r\nCon
+SF:tent-Type:\x20text/html\r\nContent-Length:\x20162\r\nConnection:\x20clo
+SF:se\r\nLocation:\x20https://packetstormsecurity\.com/\r\nX-Frame-Options
+SF::\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protecti
+SF:on:\x201;\x20mode=block\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20P
+SF:ermanently</title></head>\r\n<body>\r\n<center><h1>301\x20Moved\x20Perm
+SF:anently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</htm
+SF:l>\r\n")%r(HTTPOptions,1C4,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\
+SF:nServer:\x20EMX\x20\x20\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:59:
+SF:46\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20162\r\nCo
+SF:nnection:\x20close\r\nLocation:\x20https://packetstormsecurity\.com/\r\
+SF:nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r
+SF:\nX-XSS-Protection:\x201;\x20mode=block\r\n\r\n<html>\r\n<head><title>3
+SF:01\x20Moved\x20Permanently</title></head>\r\n<body>\r\n<center><h1>301\
+SF:x20Moved\x20Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n
+SF:</body>\r\n</html>\r\n")%r(RTSPRequest,A2,"<html>\r\n<head><title>301\x
+SF:20Moved\x20Permanently</title></head>\r\n<body>\r\n<center><h1>301\x20M
+SF:oved\x20Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</bo
+SF:dy>\r\n</html>\r\n")%r(X11Probe,1C3,"HTTP/1\.1\x20301\x20Moved\x20Perma
+SF:nently\r\nServer:\x20EMX\x20\x20\r\nDate:\x20Tue,\x2003\x20Dec\x202019\
+SF:x2008:59:46\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20
+SF:162\r\nConnection:\x20close\r\nLocation:\x20https://packetstormsecurity
+SF:\.com\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20n
+SF:osniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\n\r\n<html>\r\n<head>
+SF:<title>301\x20Moved\x20Permanently</title></head>\r\n<body>\r\n<center>
+SF:<h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr><center>nginx</cen
+SF:ter>\r\n</body>\r\n</html>\r\n")%r(FourOhFourRequest,1E7,"HTTP/1\.1\x20
+SF:301\x20Moved\x20Permanently\r\nServer:\x20EMX\x20\x20\r\nDate:\x20Tue,\
+SF:x2003\x20Dec\x202019\x2008:59:47\x20GMT\r\nContent-Type:\x20text/html\r
+SF:\nContent-Length:\x20162\r\nConnection:\x20close\r\nLocation:\x20https:
+SF://packetstormsecurity\.com/nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nX-Fr
+SF:ame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-X
+SF:SS-Protection:\x201;\x20mode=block\r\n\r\n<html>\r\n<head><title>301\x2
+SF:0Moved\x20Permanently</title></head>\r\n<body>\r\n<center><h1>301\x20Mo
+SF:ved\x20Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</bod
+SF:y>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=12/3%Time=5DE62325%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,266,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nServer:\
+SF:x20EMX\x20\x20\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008:59:52\x20GMT
+SF:\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nContent-Length
+SF::\x20240\r\nConnection:\x20close\r\nLocation:\x20https://packetstormsec
+SF:urity\.com/\r\nVary:\x20Accept-Encoding\r\nX-Frame-Options:\x20SAMEORIG
+SF:IN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;\x20
+SF:mode=block\r\nStrict-Transport-Security:\x20max-age=3600\r\n\r\n<!DOCTY
+SF:PE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><h
+SF:ead>\n<title>301\x20Moved\x20Permanently</title>\n</head><body>\n<h1>Mo
+SF:ved\x20Permanently</h1>\n<p>The\x20document\x20has\x20moved\x20<a\x20hr
+SF:ef=\"https://packetstormsecurity\.com/\">here</a>\.</p>\n</body></html>
+SF:\n")%r(HTTPOptions,1A1,"HTTP/1\.1\x20501\x20Method\x20Not\x20Implemente
+SF:d\r\nServer:\x20EMX\x20\x20\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x2008
+SF::59:53\x20GMT\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nC
+SF:ontent-Length:\x20209\r\nConnection:\x20close\r\nAllow:\x20\r\nVary:\x2
+SF:0Accept-Encoding\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x
+SF:20HTML\x202\.0//EN\">\n<html><head>\n<title>501\x20Method\x20Not\x20Imp
+SF:lemented</title>\n</head><body>\n<h1>Method\x20Not\x20Implemented</h1>\
+SF:n<p>OPTIONS\x20to\x20/\x20not\x20supported\.<br\x20/>\n</p>\n</body></h
+SF:tml>\n")%r(FourOhFourRequest,2A0,"HTTP/1\.1\x20301\x20Moved\x20Permanen
+SF:tly\r\nServer:\x20EMX\x20\x20\r\nDate:\x20Tue,\x2003\x20Dec\x202019\x20
+SF:08:59:54\x20GMT\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\
+SF:nContent-Length:\x20269\r\nConnection:\x20close\r\nLocation:\x20https:/
+SF:/packetstormsecurity\.com/nice%20ports,/Trinity\.txt\.bak\r\nVary:\x20A
+SF:ccept-Encoding\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Opti
+SF:ons:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Tran
+SF:sport-Security:\x20max-age=3600\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\
+SF:"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>301\x20Moved
+SF:\x20Permanently</title>\n</head><body>\n<h1>Moved\x20Permanently</h1>\n
+SF:<p>The\x20document\x20has\x20moved\x20<a\x20href=\"https://packetstorms
+SF:ecurity\.com/nice%20ports,/Trinity\.txt\.bak\">here</a>\.</p>\n</body><
+SF:/html>\n");
+
+Host script results:
+|_clock-skew: 3m47s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  3 09:56:51 2019 -- 1 IP address (1 host up) scanned in 70.54 seconds
